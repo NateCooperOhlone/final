@@ -1,0 +1,30 @@
+body{background-image: url(Final\ Page\ 2/IMG_1639.JPG);background-size: cover;background-repeat: no-repeat;}
+div.top-left-box {position: absolute; top: 8px; left: 16px;font-size: 2vw; color: white;}
+div.top-right-box{position: absolute; top: 8px; right: 16px;font-size: 2vw; color: white;}
+div.bottom-box{position: absolute; left: 50%;top: 50px; transform: translate(-50%, -50%);font-size: 2vw; color: white;}
+div.top-left-box, div.top-right-box, div.bottom-box{border: 3px solid rgb(51, 51, 51);padding: 10px;background-color: rgb(51, 51, 51);opacity: 0.75;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;}
+    div.top-right-box:hover, div.top-left-box:hover, div.bottom-box:hover{opacity: 1;padding: 20px;font-size: 60px;}
+    div.bottom-box:hover{position: absolute; left: 50%;top: 80px;}
+    header{position: absolute; left: 10%; top: 10%;color: white; text-shadow: 2px 2px 4px rgb(20, 20, 20); background-color: rgba(25, 25, 65); padding: 10px;border-radius: 10px;}
+div.Main-Text{position: absolute; left: 10%; top: 20%;font-size: 1vw; color: white; width: 400px;background-color: rgba(25, 25, 65); padding: 40px;border-radius: 10px;}
+div.Photos{position: absolute; right: 40%; top: 30%; max-width: 100vw; height: auto; background-color: rgba(25, 25, 65); padding: 30px;border-radius: 10px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;}
+   
+    footer{background-color: rgba(0, 0, 0, 0.473);color: white;font-size: 1vw; width: 100%; position: fixed;
+        left: 0;
+        bottom: 0;;
+        padding: 3px;text-align: center;}
+a{text-decoration: none; color: white;text-shadow: 2px 2px 4px rgb(20, 20, 20)}
+img {
+    height: auto;
+    max-width: 100%;
+}

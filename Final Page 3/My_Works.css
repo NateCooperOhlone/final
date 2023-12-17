@@ -1,0 +1,35 @@
+body{background-image: url(Final\ Page\ 3/Sky2.JPG);background-size: cover;background-repeat: no-repeat;}
+div.top-left-box {position: absolute; top: 8px; left: 16px;font-size: 2vw; color: white;}
+div.top-right-box{position: absolute; top: 8px; right: 16px;font-size: 2vw; color: white;}
+div.bottom-box{position: absolute; left: 50%;top: 50px; transform: translate(-50%, -50%);font-size: 2vw; color: white;}
+div.top-left-box, div.top-right-box, div.bottom-box{border: 3px solid rgb(51, 51, 51);padding: 10px;background-color: rgb(51, 51, 51);opacity: 0.75;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;}
+    div.top-right-box:hover, div.top-left-box:hover, div.bottom-box:hover{opacity: 1;padding: 20px;font-size: 60px;}
+    div.bottom-box:hover{position: absolute; left: 50%;top: 80px;}
+div.space-back{position: absolute; left: 7%; top: 10%;scale: 0.75; height:auto; z-index: -1;filter: saturate(0%);}
+div.space-link{font-size: 50px; color: white;position: absolute;left: 15%; top: 47%;scale: 1;}
+div.space-link, div.space-back,div.pirate-link, div.pirate-back{-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;}
+div.space:hover .space-back{scale: 1;filter: saturate(100%);} 
+div.space:hover .space-link{scale: 1.5;}
+div.pirate-back{position: absolute; right: 10%; top: 10%;scale: 0.75;z-index: -2;filter: saturate(0%);}
+div.pirate-link{font-size: 50px; color: white;position: absolute;right: 19%;top: 47%;scale: 1;}
+    div.pirate:hover .pirate-back{scale: 1;filter: saturate(100%);} 
+div.pirate:hover .pirate-link{scale: 1.5;}
+header{position: absolute;left: 50%;top: 20%;transform: translate(-50%, -50%);font-size: 3vw; color: white; text-shadow: 2px 2px 4px rgb(20, 20, 20);}
+footer{background-color: rgba(0, 0, 0, 0.473);color: white;font-size: 1vw; width: 100%; position: fixed;
+    left: 0;
+    bottom: 0;;
+    padding: 3px;text-align: center;}
+a{text-decoration: none; color: white;text-shadow: 2px 2px 4px rgb(20, 20, 20)}
+img {
+    height: auto;
+    max-width: 100%;
+}

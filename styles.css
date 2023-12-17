@@ -1,0 +1,19 @@
+body{background-color: rgb(25, 25, 65);}
+#myVideo{position: absolute; left: 0;top: 0; min-width: 100%; min-height: 100%;; z-index: -1;}
+div.center{display: flex; width: 100vw;height: 100vh;align-items: center;justify-content: center;font-size: 80px; font-family:'Courier New', Courier, monospace;color: white;text-shadow: 2px 2px 4px rgb(51, 51, 51);text-align: center; }
+div.top-left-box {position: absolute; top: 8px; left: 16px;font-size: 2vw; color: white;}
+div.top-right-box{position: absolute; top: 8px; right: 16px;font-size: 2vw; color: white;}
+div.bottom-box{position: absolute; left: 50%;top: 50px; transform: translate(-50%, -50%);font-size: 2vw; color: white;}  
+.container img{opacity: 0.85;}
+div.top-left-box, div.top-right-box, div.bottom-box{border: 3px solid rgb(51, 51, 51);padding: 10px;background-color: rgb(51, 51, 51);opacity: 0.75;-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;}
+div.top-right-box:hover, div.top-left-box:hover, div.bottom-box:hover{opacity: 1;padding: 20px;font-size: 60px;}
+div.bottom-box:hover{position: absolute; left: 50%;top: 80px;}
+footer{background-color: rgba(0, 0, 0, 0.473);color: white;font-size: 1vw; width: 100%; position: fixed;
+    left: 0;
+    bottom: 0;;
+    padding: 3px;text-align: center;}
+a{text-decoration: none;color: white;text-shadow: 2px 2px 4px rgb(20, 20, 20);}
