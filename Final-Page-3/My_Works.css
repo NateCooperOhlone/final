@@ -1,4 +1,4 @@
-body{background-image: url(/Final\ Page\ 3/Sky2.JPG);background-size: cover;background-repeat: no-repeat;}
+body{background-image: url(./Sky2.JPG);background-size: cover;background-repeat: no-repeat;}
 div.top-left-box {position: absolute; top: 8px; left: 16px;font-size: 2vw; color: white;}
 div.top-right-box{position: absolute; top: 8px; right: 16px;font-size: 2vw; color: white;}
 div.bottom-box{position: absolute; left: 50%;top: 50px; transform: translate(-50%, -50%);font-size: 2vw; color: white;}
